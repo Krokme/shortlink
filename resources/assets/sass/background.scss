@@ -1,0 +1,20 @@
+
+$app-backgound-color: #cce5ff;
+$app-background-height: 50%;
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: 100%;
+  background: $app-backgound-color;
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, $app-backgound-color), color-stop($app-background-height, #fff), color-stop(100%, #fff));
+  background: linear-gradient(to bottom, $app-backgound-color 0%, #fff $app-background-height, #fff 100%);
+  background-repeat: no-repeat;
+}
+div.background-exaple {
+  background: linear-gradient(to bottom, $app-backgound-color $app-background-height, #fff $app-background-height);
+  border: 1px solid rgba(0, 0, 0, 0.125);
+}
