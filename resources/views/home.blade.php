@@ -18,7 +18,7 @@
                         </div>
                     @endif
 
-                    <form method="post" class="form-inline">
+                    <form method="post" class="form-inline" action="/">
                         {{csrf_field()}}
                         <div class="form-group mx-md-4 mb-2">
                             <label for="inputUrl" class="sr-only">Password</label>
